@@ -35,7 +35,7 @@ function sayHi(done) {
   done();
 }
 
-export { 
+export { // functionname as callname // 
     watch as default, 
     squashImages as crunch,
     compileSass as compile,
