@@ -1,7 +1,7 @@
 <?php 
     $db_dsn = array( 
         'host' => 'localhost', // this will change when you go live
-        'dbname' => 'profData', // update this with your database name
+        'dbname' => 'profdata', // update this with your database name
         'charset' => 'utf8'
     );
     //php variables have Dollar signs

@@ -5,10 +5,12 @@ function getData(cb) { //cb calls back to a function
     .then(data => { 
         // Do whatever you want with the data
         // call a function to generate the data
+        console.table(data);
         cb(data[0]);
+        buildTeam(data[0]);
     })
         //Catch and report error if the fetch doesn't work
-    //.catch(error => console.error(error));
+    .catch(error => console.error(error));
 }
 
 export { getData }

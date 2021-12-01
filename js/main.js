@@ -26,4 +26,4 @@ import { getData } from "./components/TheDataMiner.js";
     // use the getData function
     getData(buildTeam);
 
-})()
+})();
